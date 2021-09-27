@@ -1,0 +1,377 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+background-image:url(../pics/mural.jpg);
+background-repeat: no-repeat;
+width:1500px;
+height: 1500px;
+background-color: #ebeaea;
+}
+
+/*this is all ao nav br propartirs */
+.navbar{
+    text-align: center;
+        width: 1280px;
+        background:navy;
+        
+
+}
+
+.navbar ul{
+    margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        margin-left:150px
+}
+
+.navbar ul li a{
+    display: block;
+                padding: 25px;
+                color: white;
+                text-decoration: none;
+                width: 150px;
+}
+
+.navbar ul:after{
+    content: ""; clear: both;
+    display: block
+    }
+.navbar ul li{
+float: left;
+list-style: none;  
+}
+.navbar ul ul{
+display: none
+    }
+.navbar ul li:hover > ul {
+                display: block
+              }
+.navbar ul li:hover {
+        background-color:#00004073;
+        transition: 0.9s;
+        }
+.navbar ul li:hover a{
+            color: white
+         }
+.navbar ul ul {
+    background: #00004073;
+    padding: 0;
+    margin: 0;
+    position: absolute; top: 100%;
+    }
+.navbar ul ul li {
+        float: none;
+        position: relative;
+
+    }
+.navbar ul ul li a{
+        padding: 25px;
+        color: white;
+        width: 300px;
+        text-align: left;
+      }
+.navbar ul ul li a:hover{
+            background:#0000402e;
+            color:white;
+            transition: 0.9s;  
+            }
+/* this is the end of the uppernavbar*/
+
+
+
+/*THE TEXT IN THE MIDDLE*/
+.one{
+font-size: 40px;
+margin: 100px 100px 100px 100px;
+color: rgb(194, 36, 36)
+}
+
+.two{
+    font-size: 20px;
+margin: -50px 0px 100px 100px;
+color: rgb(194, 36, 36);
+font-size: 30px
+}
+
+
+
+/* this is the logo properties*/
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+
+}
+
+/* this is the lower navbar properties*/
+
+.lowernavbar{
+margin-top: 0px;
+width: 1500px;
+height: 45px;
+    background-color: rgb(53, 172, 204)
+}
+
+.lowernavbar ul {
+    margin-left: 180px;
+    padding: 14px;
+
+}
+
+.lowernavbar ul li{
+    display: inline;
+    margin-left: 35px;
+
+}
+
+.lowernavbar ul li:hover{
+    cursor: pointer;
+    color: rgb(230, 229, 173)
+}
+
+/* the search button
+.btn{
+    position: absolute;
+    top: 78px;
+    right: 30px;
+    left: 1020px;
+    z-index: 1;
+    width: 200px;
+    height: 20px;
+    background-color: rgba(95, 95, 85, 0.65);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    align-items: center;
+    align-items: center;
+    border: 2px white solid;
+    padding: 4px;
+    
+    
+  
+  }
+  
+  
+  .btn:hover{
+      color: white;
+      transition: 0.9s; 
+      
+  }
+  
+  .inside{
+      margin-top: 1px;
+      margin-left: 30px;
+      
+      
+  
+  }
+
+  */
+
+  .inside{
+    position: absolute;
+    top: 79px;
+    left: 970px;
+    background-color:#00004073;
+    width: 203px;
+    height: 26px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px
+  }
+
+  .search{
+      color: white
+  }
+
+  h1{
+    margin-left: 450px;
+    margin-top: 211px;
+    color: navy
+}
+
+.box1{
+    width: 280px;
+    background-color: white;
+    margin-left: 39px;
+    height: 398px;
+   
+    
+}
+
+.signin {
+    font-size: 25px;
+    margin-left: 87px;
+    margin-top: 46px;
+    letter-spacing: -1px;
+    padding-top: 19px;
+    color: navy
+}
+.name{
+margin-left: 60px  ;
+margin-top: 16px;
+padding:10px;
+border-radius: 10px;
+letter-spacing: -1px;
+
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px
+}
+
+.findus{
+    margin-left: 98px;
+    color: navy;
+    margin-top: 10px
+}
+
+.socialpic{
+    width: 150px;
+    margin-left: 60px
+}
+
+
+/* this is the  line */
+
+.line {
+    margin-top: -12px;
+    width: 187px;
+    margin-left: 109px;
+    position: absolute;
+}
+
+.hear
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1000px;
+    padding: 10px
+
+}
+
+
+.line1 {
+    margin-top: -12px;
+    width: 210px;
+    margin-left: 542px;
+    position: absolute;
+}
+
+.line2{
+   
+
+}
+
+.line3{
+    margin-top: 100px;
+    width: 110px;
+    margin-left: 542px;
+    position: absolute;
+
+}
+
+
+footer{
+    background-color: #ebeaea;
+        height: 401px;
+    width: 863px;
+    margin-top: 612px;
+    position: absolute;
+    top: 100px;
+    left: 351px;
+
+}
+
+
+
+
+.girl{
+    width: 200px;
+    height: 200px;
+    margin: 100px 50px;
+    border-radius: 90px;
+float: left;
+}
+
+.bio{
+    margin-top: 50px
+}
+
+
+
+
+
+
+
+/*the sides buttons*/
+  
+    .side1 {
+        width: 100px;
+        height: 15px;
+        position: fixed;
+        top: 177px;
+        left: 1163px;
+        background-color: #c22424;
+        color: white;
+        padding: 20PX;
+        
+    }
+
+    .side1:hover{
+        background-color: navy;
+        cursor: pointer
+    }
+
+    .side2{
+        width: 100px;
+        height: 15px;
+        background-color: #c22424;
+        position: fixed;
+        top: 250px;
+        left: 1163px;
+        padding: 20PX;
+        color: white;
+    }
+
+    .side2:hover{
+        background-color: navy;
+        cursor: pointer
+    }
+
+    .side3{
+        width: 100px;
+        height: 15px;
+        background-color: #c22424;
+        position: fixed;
+        top: 320px;
+        left: 1163px;
+        padding: 20PX;
+        color: white;
+    }
+
+    .side3:hover{
+        background-color: navy;
+        cursor: pointer
+    }
+
+
+
+
+
+
+
+
+
+
